@@ -8,7 +8,7 @@ stages:
 - stage: 'Build'
   displayName: 'Build the web application'
   jobs: 
-  - job: RunLoadTests
+  - job: RunLoadTestsPre
     displayName: 'Run load tests'
     pool:
         vmImage: 'ubuntu-20.04'
