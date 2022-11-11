@@ -97,7 +97,6 @@ stages:
     steps:
     - script: |
         wget -c ftp.ps.pl/pub/apache/jmeter/binaries/apache-jmeter-$(jmeterVersion).tgz
-        print("Download completed successfully !!!")
         ls
         tar -xzf apache-jmeter-$(jmeterVersion).tgz
       displayName: 'Install Apache JMeter'
